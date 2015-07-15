@@ -1,0 +1,44 @@
+body{
+	font-size: 18px;
+}
+blockquote p{
+	font-size: 20px;
+	font-family: 'Palatino Linotype', 'Palatino', serif;
+}
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+h1{
+	font-family: 'Palatino Linotype', "Palatino", serif;
+}
+ul{
+	text-align: center;
+	padding: 0;
+}
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+nav li a {
+	color: black;
+}
+nav li a:hover {
+	color: #777;
+}
+.current-menu-item {
+	font-size: 1em;
+	text-decoration: underline;
+}
+.img-feature {
+	max-width: 100%;
+}
+.main {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main p{
+	text-align: justify;
+}
